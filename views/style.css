@@ -55,14 +55,14 @@ body {
 
 .image-upload-wrap {
     margin-top: 20px;
-    border: 4px dashed #1FB264;
+    border: 4px dashed #35465D;
     position: relative;
 }
 
 .image-dropping,
 .image-upload-wrap:hover {
-    background-color: #1FB264;
-    border: 4px dashed #ffffff;
+    background-color: #eee;
+    border: 4px dashed #35465D;
 }
 
 .image-title-wrap {
@@ -77,7 +77,7 @@ body {
 .drag-text h3 {
     font-weight: 100;
     text-transform: uppercase;
-    color: #15824B;
+    color: #35465D;
     padding: 60px 0;
 }
 
@@ -117,6 +117,7 @@ body {
 
 .nav-distance {
     padding: 2.1% 7.7%;
+    background-color: #eeeeee !important;
 }
 
 .navbar-brand {
@@ -126,4 +127,28 @@ body {
     line-height: 69px;
     letter-spacing: 0px;
     text-align: left;
+}
+
+.cont-txt {
+    padding: 10% 7.7%;
+    text-align: center;
+}
+
+.cont-txt div:nth-of-type(1) {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 74px;
+    letter-spacing: 0px;
+}
+
+.cont-txt div:nth-of-type(2) {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0px;
+}
+
+.addthis_inline_share_toolbox {
+    text-align: center;
+    padding: 50px 0;
 }
