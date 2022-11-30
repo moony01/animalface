@@ -1,3 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none
+}
+
 body {
     font-family: sans-serif;
     background-color: #eeeeee;
@@ -67,7 +80,6 @@ body {
 }
 
 .image-title-wrap {
-    padding: 0 15px 15px 15px;
     color: #222;
 }
 
@@ -84,7 +96,7 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     color: #000;
-    margin-bottom: 0;
+    margin: 0;
     padding-top: 250px;
 }
 
@@ -99,6 +111,18 @@ body {
     max-width: 200px;
     margin: auto;
     padding: 20px;
+    border: 1px solid #35465D;
+}
+
+.result-messege {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0px;
+}
+
+#label-container {
+    margin-bottom: 1rem;
 }
 
 .remove-image {
@@ -136,7 +160,7 @@ body {
 .navbar-brand {
     font-family: Jua;
     font-size: 42px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 69px;
     letter-spacing: 0px;
     text-align: left;
@@ -164,4 +188,36 @@ body {
 .addthis_inline_share_toolbox {
     text-align: center;
     padding: 50px 0;
+}
+
+/* PC (해상도 1024px)*/ 
+@media all and (min-width:1024px) {
+    
+} 
+  
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:768px) and (max-width:1023px) {
+    
+} 
+  
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ 
+@media all and (max-width:767px) {
+
+    .navbar-brand {
+        font-size: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .cont-txt div:nth-of-type(1) {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    
+    .cont-txt div:nth-of-type(2) {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+    }
 }
