@@ -5,7 +5,7 @@ body {
 
 .file-upload {
     background-color: #ffffff;
-    width: 600px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -54,15 +54,15 @@ body {
 }
 
 .image-upload-wrap {
-    margin-top: 20px;
-    border: 4px dashed #35465D;
+    border: 2px dashed #35465D;
     position: relative;
+    height: 500px;
 }
 
 .image-dropping,
 .image-upload-wrap:hover {
     background-color: #eee;
-    border: 4px dashed #35465D;
+    border: 2px dashed #35465D;
 }
 
 .image-title-wrap {
@@ -72,13 +72,20 @@ body {
 
 .drag-text {
     text-align: center;
+    width: 80%;
+    height: 100%;
+    display: table;
+    margin: 0 auto;
 }
 
 .drag-text h3 {
+    font-size: 1.5rem;
     font-weight: 100;
     text-transform: uppercase;
     color: #35465D;
-    padding: 60px 0;
+    margin-bottom: 0;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .file-upload-image {
