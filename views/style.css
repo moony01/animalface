@@ -51,6 +51,7 @@ body {
     outline: none;
     opacity: 0;
     cursor: pointer;
+    z-index: 1;
 }
 
 .image-upload-wrap {
@@ -80,12 +81,17 @@ body {
 
 .drag-text h3 {
     font-size: 1.5rem;
-    font-weight: 100;
+    font-weight: 600;
     text-transform: uppercase;
-    color: #35465D;
+    color: #000;
     margin-bottom: 0;
-    display: table-cell;
-    vertical-align: middle;
+    padding-top: 250px;
+}
+
+.drag-text .baseline_upload {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 150px);
 }
 
 .file-upload-image {
