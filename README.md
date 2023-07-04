@@ -1,3 +1,3 @@
-# animal_face
+# animalface
 
-https://moony01.github.io/animal_face/
+https://moony01.github.io/animalface/
